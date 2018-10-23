@@ -14,3 +14,7 @@ eureka:
 spring:
   application:
     name: activity-test
+
+
+test:
+  appname: 123456a
