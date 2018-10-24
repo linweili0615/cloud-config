@@ -1,28 +1,10 @@
-server:
-  port: 3333
-
 spring:
-  application:
-    name: activity-test
   redis:
     database: 5
     host: node.td-k8s.com
     port: 1379
     password: mWRK6joVy5No
     timeout: 10ms
-
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    serviceUrl:
-      defaultZone: http://localhost:1111/eureka/
-  instance:
-    ip-address: 10.100.97.31
-    prefer-ip-address: true
-
-
-
 
 test:
   appname: 123456a
