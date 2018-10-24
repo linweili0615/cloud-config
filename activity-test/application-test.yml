@@ -1,4 +1,9 @@
+server:
+  port: 3333
+
 spring:
+  application:
+    name:  activity-test
   redis:
     database: 5
     host: node.td-k8s.com
