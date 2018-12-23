@@ -21,7 +21,7 @@ mybatis:
   type-aliases-package: com.test.jm.dto
   mapper-locations: classpath:mappers/*.xml
 test:
-  appname: 123456a
+  appname: 123a
 pagehelper:
   helper-dialect: mysql
   reasonable: true
